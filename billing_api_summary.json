@@ -1,0 +1,17 @@
+{
+  "api_name": "Billing & Finance API",
+  "authentication": "OAuth2",
+  "endpoint": "/transactions",
+  "method": "POST",
+  "request_fields": [
+    "transaction_id",
+    "client_id",
+    "transaction_date",
+    "total_amount",
+    "currency_code"
+  ],
+  "response_fields": [
+    "invoice_id",
+    "payment_status"
+  ]
+}

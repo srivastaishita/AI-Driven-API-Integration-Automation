@@ -1,0 +1,17 @@
+{
+  "api_name": "Order Management API",
+  "authentication": "Bearer Token",
+  "endpoint": "/orders",
+  "method": "POST",
+  "request_fields": [
+    "order_id",
+    "customer_id",
+    "order_date",
+    "order_amount",
+    "currency"
+  ],
+  "response_fields": [
+    "order_reference",
+    "status"
+  ]
+}

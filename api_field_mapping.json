@@ -1,0 +1,18 @@
+{
+  "field_mappings": {
+    "order_id": "order_reference",
+    "customer_id": "customer_id",
+    "order_date": "order_date",
+    "order_amount": "total_amount",
+    "currency": "currency"
+  },
+  "transformations": {
+    "order_date": "ISO 8601 format (YYYY-MM-DD)"
+  },
+  "unmapped_fields": {
+    "transaction_id": [],
+    "client_id": [],
+    "invoice_id": [],
+    "payment_status": []
+  }
+}
