@@ -11,7 +11,7 @@ Billing system expects transaction_id
 
 ✅ What this project does
 
-Your project automates this integration process using AI.
+This project automates this integration process using AI.
 In simple words:
 “Given two API definitions, the system automatically understands them, maps them, and generates integration code.”
 
@@ -25,7 +25,7 @@ API Definitions
      ↓
  Agent 3 (Generate Code)
 
-# Agent 1 — What is happening?
+# Agent 1
 🔹 Input
 Two API definitions (JSON):
 Order Management API
@@ -56,7 +56,7 @@ You’d be feeding raw documentation to AI
 That leads to confusion and wrong mappings
 Agent 1 creates structure.
 
-# Agent 2 — What is happening?
+# Agent 2
 🔹 Input
 The clean summaries from Agent 1.
 🔹 What Agent 2 does
@@ -68,7 +68,7 @@ Proposes field-to-field mappings
 Identifies required transformations (dates, currency, formats)
 This file is the contract between systems.
 
-# Agent 3 — What is happening?
+# Agent 3
 🔹 Input
 API summaries (Agent 1)
 Field mapping (Agent 2)
