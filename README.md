@@ -9,22 +9,6 @@ Example:
 Order system says order_id
 Billing system expects transaction_id
 
-✅ What this project does
-
-This project automates this integration process using AI.
-In simple words:
-“Given two API definitions, the system automatically understands them, maps them, and generates integration code.”
-
-# High-Level Architecture
-this system is multi-agent
-API Definitions
-     ↓
- Agent 1 (Understand APIs)
-     ↓
- Agent 2 (Map APIs)
-     ↓
- Agent 3 (Generate Code)
-
 # Agent 1
 🔹 Input
 Two API definitions (JSON):
